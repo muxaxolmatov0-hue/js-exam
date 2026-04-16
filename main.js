@@ -144,3 +144,36 @@
 // console.log(all);
 
 //==============================================================================================================================================================
+
+// 5-masala kabisa yilini aniqlovchi dastur yozing
+
+// let year = +prompt("yilingizni kiriting");
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//   console.log(year + " - Kabisa yili");
+// } else {
+//   console.log(year + " - Oddiy yil");
+// }
+
+//==========================================================================================================================================================================
+
+// 6-masala  foydalanuvchi 2ta son kiritadi ulardan eng kichigini qaytaruvchi dastur yozing bunda Math dan foydalanmang  budna || && operatorlaridan foydalaning
+
+// let son1 = +prompt("son kiriting");
+// let son2 = +prompt("2 - son kiriting");
+
+// let small = son1;
+
+// if (son2 < son1) {
+//   small = son2;
+// }
+// console.log("kichik");
+
+//============================================================================================================================================================================
+
+// 7-savol let const var kalit sozlarini bir birdan farqini yozib qoldiring
+
+// let ozgaruvchi bu usul zamonaviy usul bolib qiymatini ozgartirib qayta elon qilish mumkin. ishlatish uchun eng yaxshi variant
+
+// var ozgaruvchi qiymatlarni oladi bundan kop dasturchilar foydalanilmaydi kam dasturchilar ishlatishi mumkin va bu eski usul hisoblandi . ishlatmagan maqul hisoblanadi eng yaxshi variant let !
+
+//const o'zgarmas qiymatlar uchun const ishlatiladi .
